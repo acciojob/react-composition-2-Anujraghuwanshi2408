@@ -8,8 +8,11 @@ const Modal = ({show , onClose}) => {
    console.log(show)
    return(
     <div className="model-overlay">
-       <div className="model-close" onClick={onClose}>Close
-       <p className="model p">This is the content of the modal</p></div>
+       <div>
+       <button className="model-close" onClick={onClose}>Close
+       </button>
+      <p className="model p">This is the content of the modal</p>
+      </div>
        
     </div>
    )
