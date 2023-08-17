@@ -11,7 +11,7 @@ const Modal = ({show , onClose}) => {
        <div  className="model-close" onClick={onClose}>
                Close
       
-        <p >This is the content of the modal</p>
+        <p >This is the content of the modal.</p>
       </div>
        
     </div>
